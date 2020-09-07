@@ -5,7 +5,7 @@ import './index.scss'
 export default function Index () {
   return (
     <View className='index'>
-      <Text>Hello world!</Text>
+      <Text>Hello world! --- 订单</Text>
     </View>
   )
 }

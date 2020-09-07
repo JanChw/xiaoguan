@@ -4,8 +4,8 @@ import './index.scss'
 
 export default function Index () {
   return (
-    <View className='index'>
-      <Text>Hello world!</Text>
+    <View>
+      <Text>Hello world! --- 点单</Text>
     </View>
   )
 }
