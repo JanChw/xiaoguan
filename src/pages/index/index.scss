@@ -1,0 +1,29 @@
+.index {
+  swiper {
+    width: 100%;
+    height: calc(100vw / 2.5);
+  }
+  view.greetings {
+    margin: 15px 0;
+    font-weight: bold;
+  }
+  view.orderBtn {
+    & > button {
+      background-color: red!important;
+      border-radius: 25PX;
+    }
+  }
+  view.myServices {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 100;
+    & > View {
+      & > image {
+        width: 64px;
+        height: 64px;
+      }
+    }
+  }
+}
