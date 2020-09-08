@@ -1,0 +1,18 @@
+.order {
+  view.list {
+    margin-top: 30px;
+    scroll-view {
+      height: 450px;
+      view {
+          // height: 300px;
+          background: yellow;
+          margin: 10px;
+        }
+    }
+  }
+
+  .active {
+    font-weight: bold;
+    color: red;
+  }
+}
